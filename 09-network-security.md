@@ -29,3 +29,19 @@ Subredes:
 - Usar NSGs para agrupar reglas por rol (App, DB)
 - Deshabilitar todo tráfico entrante por defecto
 - Encriptar tráfico con TLS (HTTPS)
+
+## 9.5 Tarea en la consola OCI (simple, para aprender)
+
+1. Entra a tu Consola OCI.
+
+2. Ve a Networking → Virtual Cloud Networks.
+
+3. Crea una VCN nueva:
+
+  - Nombre: payroll-vcn
+
+  - IDR: 10.0.0.0/16
+
+4. Crea 3 subredes (aunque no lances VMs todavía), usando los CIDR de arriba.
+
+5. Explora cómo OCI te deja definir Security Lists y Route Tables.
